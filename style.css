@@ -106,12 +106,14 @@ a {
   font-weight: 600;
   line-height: 25px;
   color: #103b66;
+  margin-left: 150px;
 }
 
 .class1 {
   display: flex;
   gap: 24px;
   margin-left: 150px;
+  position: relative;
 }
 
 .flex-img {
@@ -129,6 +131,7 @@ a {
   gap: 24px;
   border-radius: 4px;
   background-color: #fff;
+  position: relative;
 
   /* Shadows/Buttons/Button - 2dp - Shadow */
   box-shadow: 0px 2px 4px 0px rgba(50, 50, 71, 0.06),
@@ -137,3 +140,19 @@ a {
 .itemPharagraph {
   text-align: center;
 }
+.advencedWizaredBox{
+  display: flex;
+  gap: 32px;
+
+}
+.advencedWizaredBoxupdate{
+  display: flex;
+  gap:8px ;
+
+}
+.imgPosition{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
